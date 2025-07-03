@@ -1,0 +1,41 @@
+baseURL = 'https://yourdomain.com'
+languageCode = 'en-us'
+title = 'Nisimi'
+theme = 'minimal-security'
+
+[params]
+  author = "6e6973696d69"
+  description = "Security Research and Vulnerability Discoveries"
+  linkedin = "https://linkedin.com/in/roinisimi"
+  twitter = "https://x.com/roinisimi"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Talks & Publications"
+    url = "/talks-publications/"
+    weight = 2
+  [[menu.main]]
+    name = "CVEs"
+    url = "/cves/"
+    weight = 3
+  [[menu.main]]
+    name = "Play"
+    url = "/play/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    tabWidth = 2
+
+[permalinks]
+  posts = "/posts/:slug/"
+  cves = "/cves/:slug/"

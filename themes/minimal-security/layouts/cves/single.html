@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="container">
+    <article class="cve-page">
+        <header class="cve-header">
+            <h1 class="cve-title">
+                {{ if .Params.cve_id }}{{ .Params.cve_id }}: {{ end }}{{ .Title }}
+            </h1>
+            <div class="cve-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.severity }}
+                <span class="meta-separator">•</span>
+                <span class="severity severity-{{ lower .Params.severity }}">{{ .Params.severity }}</span>
+                {{ end }}
+                {{ if .ReadingTime }}
+                <span class="meta-separator">•</span>
+                <span class="reading-time">{{ .ReadingTime }} min read</span>
+                {{ end }}
+            </div>
+        </header>
+        
+        {{ if .Params.nvd_embed_url }}
+        <section class="nvd-section">
+            <h2>Official CVE Details</h2>
+            <div class="nvd-embed">
+                <iframe 
+                    src="{{ .Params.nvd_embed_url }}" 
+                    title="NVD Details for {{ .Params.cve_id }}"
+                    frameborder="0"
+                    sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+                    loading="lazy">
+                </iframe>
+                <div class="nvd-fallback">
+                    <p>If the embed doesn't load, you can view the official CVE details at: 
+                       <a href="{{ .Params.nvd_embed_url }}" target="_blank" rel="noopener noreferrer">NVD</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        {{ end }}
+        
+        {{ if .Params.cve_id }}
+        <section class="cve-links">
+            <h3>External References</h3>
+            <div class="reference-links">
+                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ .Params.cve_id }}" 
+                   target="_blank" rel="noopener noreferrer" class="reference-link">
+                   MITRE CVE Details
+                </a>
+                <a href="https://nvd.nist.gov/vuln/detail/{{ .Params.cve_id }}" 
+                   target="_blank" rel="noopener noreferrer" class="reference-link">
+                   NIST NVD Details
+                </a>
+            </div>
+        </section>
+        {{ end }}
+        
+        <section class="analysis-section">
+            <h2>Analysis & Discovery</h2>
+            <div class="cve-content">
+                {{ .Content }}
+            </div>
+        </section>
+        
+        {{ if .Params.tags }}
+        <div class="cve-tags">
+            <strong>Tags:</strong>
+            {{ range .Params.tags }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </article>
+</div>
+{{ end }} 

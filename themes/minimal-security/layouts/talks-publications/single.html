@@ -1,0 +1,77 @@
+{{ define "main" }}
+<div class="container">
+    <div class="page-header">
+    </div>
+    
+    <div class="talks-publications">
+        {{ $talks := where .Site.RegularPages "Section" "talks" }}
+        {{ if gt (len $talks) 0 }}
+        <section class="talks-section">
+            {{ range $talks.ByDate.Reverse }}
+            <div class="talk-item">
+                <h3>{{ .Title }}</h3>
+                {{ if or .Params.venue .Params.location }}
+                <div class="talk-meta">
+                    {{ if .Params.venue }}<span class="venue">{{ .Params.venue }}</span>{{ end }}
+                    {{ if and .Params.venue .Params.location }}<span class="separator">•</span>{{ end }}
+                    {{ if .Params.location }}<span class="location">{{ .Params.location }}</span>{{ end }}
+                </div>
+                {{ end }}
+                {{ if .Params.youtube_id }}
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/{{ .Params.youtube_id }}" 
+                        title="{{ .Title }}"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                {{ end }}
+                {{ if .Content }}
+                <div class="talk-description">
+                    {{ .Content }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </section>
+        {{ end }}
+        
+        {{ $publications := where .Site.RegularPages "Section" "publications" }}
+        {{ if gt (len $publications) 0 }}
+        <section class="publications-section">
+            <h2>Publications</h2>
+            {{ range $publications.ByDate.Reverse }}
+            <div class="publication-item">
+                <h3>{{ .Title }}</h3>
+                {{ if .Params.summary }}
+                <blockquote class="publication-quote">
+                    "{{ .Params.summary }}"
+                </blockquote>
+                {{ end }}
+                {{ if .Params.external_url }}
+                <div class="publication-link">
+                    <a href="{{ .Params.external_url }}" target="_blank" rel="noopener noreferrer" class="external-link">
+                        Read the full article →
+                    </a>
+                </div>
+                {{ end }}
+                {{ if .Content }}
+                <div class="publication-description">
+                    {{ .Content }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </section>
+        {{ end }}
+        
+        {{ if and (eq (len $talks) 0) (eq (len $publications) 0) }}
+        <div class="empty-state">
+            <p>Talks and publications will be added here soon.</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }} 

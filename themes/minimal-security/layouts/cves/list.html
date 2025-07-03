@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container">
+    
+    <div class="content-section">
+    <div class="cve-list">
+        {{ $cves := where .Site.RegularPages "Section" "cves" }}
+        {{ range $cves.ByDate.Reverse }}
+        <article class="cve-item">
+            <header class="cve-header">
+                <h2 class="cve-title">
+                    <a href="{{ .Params.nvd_embed_url }}">
+                        {{ if .Params.cve_id }}{{ .Params.cve_id }}{{ end }}
+                    </a>
+                </h2>
+                <div class="cve-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ if .Params.severity }}
+                    <span class="meta-separator">•</span>
+                    <span class="severity severity-{{ lower .Params.severity }}">{{ .Params.severity }}</span>
+                    {{ end }}
+                </div>
+            </header>
+            {{ if .Params.summary }}
+            <div class="cve-summary">
+                <p>{{ .Params.summary }}</p>
+            </div>
+            {{ end }}
+        </article>
+        {{ end }}
+        
+        {{ if eq (len $cves) 0 }}
+        <div class="empty-state">
+            <p>No CVEs published yet. Check back soon for vulnerability disclosures.</p>
+        </div>
+        {{ end }}
+    </div>
+    </div>
+</div>
+{{ end }} 

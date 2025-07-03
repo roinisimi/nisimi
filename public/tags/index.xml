@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nisimi</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Nisimi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confused-Deputy</title>
+      <link>http://localhost:1313/tags/confused-deputy/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/confused-deputy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crd</title>
+      <link>http://localhost:1313/tags/crd/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/crd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kro</title>
+      <link>http://localhost:1313/tags/kro/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/tags/kubernetes/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rce</title>
+      <link>http://localhost:1313/tags/rce/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Controllers</title>
+      <link>http://localhost:1313/tags/controllers/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/controllers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/tags/research/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Thu, 18 Jan 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cicd</title>
+      <link>http://localhost:1313/tags/cicd/</link>
+      <pubDate>Thu, 18 Jan 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cicd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cli</title>
+      <link>http://localhost:1313/tags/cli/</link>
+      <pubDate>Thu, 18 Jan 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credentials</title>
+      <link>http://localhost:1313/tags/credentials/</link>
+      <pubDate>Thu, 18 Jan 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/credentials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gcp</title>
+      <link>http://localhost:1313/tags/gcp/</link>
+      <pubDate>Thu, 18 Jan 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gke</title>
+      <link>http://localhost:1313/tags/gke/</link>
+      <pubDate>Tue, 16 Jan 2024 09:15:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gke/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google-Cloud</title>
+      <link>http://localhost:1313/tags/google-cloud/</link>
+      <pubDate>Tue, 16 Jan 2024 09:15:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/google-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privilege-Escalation</title>
+      <link>http://localhost:1313/tags/privilege-escalation/</link>
+      <pubDate>Tue, 16 Jan 2024 09:15:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/privilege-escalation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rbac</title>
+      <link>http://localhost:1313/tags/rbac/</link>
+      <pubDate>Tue, 16 Jan 2024 09:15:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rbac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blue</title>
+      <link>http://localhost:1313/tags/blue/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/blue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green</title>
+      <link>http://localhost:1313/tags/green/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/green/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red</title>
+      <link>http://localhost:1313/tags/red/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/red/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

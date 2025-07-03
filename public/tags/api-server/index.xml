@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api-Server on Security Research Blog</title>
+    <link>http://localhost:1313/tags/api-server/</link>
+    <description>Recent content in Api-Server on Security Research Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2024 15:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/api-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes API Server Authentication Bypass</title>
+      <link>http://localhost:1313/cves/kubernetes-api-server-authentication-bypass/</link>
+      <pubDate>Wed, 10 Jan 2024 15:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/cves/kubernetes-api-server-authentication-bypass/</guid>
+      <description>Authentication bypass vulnerability in Kubernetes API server allowing unauthorized cluster access through malformed JWT tokens.</description>
+    </item>
+  </channel>
+</rss>

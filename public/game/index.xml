@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Nisimi</title>
+    <link>http://localhost:1313/game/</link>
+    <description>Recent content in Games on Nisimi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Challenge Game</title>
+      <link>http://localhost:1313/game/security-challenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/game/security-challenge/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-the-security-challenge&#34;&gt;Welcome to the Security Challenge!&lt;/h2&gt;&#xA;&lt;p&gt;Think you have what it takes to spot security vulnerabilities? This interactive game will test your knowledge of common security issues in code.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-play&#34;&gt;How to Play&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Read the code snippet carefully&lt;/li&gt;&#xA;&lt;li&gt;Identify potential security vulnerabilities&lt;/li&gt;&#xA;&lt;li&gt;Select all applicable security issues&lt;/li&gt;&#xA;&lt;li&gt;Submit your answer and learn from the explanation&lt;/li&gt;&#xA;&lt;li&gt;Try to get a perfect score!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This game features real-world scenarios and common security pitfalls that every security-conscious developer should be aware of. Each challenge is based on actual vulnerabilities found in production code.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

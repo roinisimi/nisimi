@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crd on Nisimi</title>
+    <link>http://localhost:1313/tags/crd/</link>
+    <description>Recent content in Crd on Nisimi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/crd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>...</title>
+      <link>http://localhost:1313/cves/.../</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cves/.../</guid>
+      <description>coming soon &amp;hellip;</description>
+    </item>
+    <item>
+      <title>Kubernetes CRD Abstraction Risks in kro</title>
+      <link>http://localhost:1313/cves/kubernetes-crd-abstraction-risks-in-kro/</link>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cves/kubernetes-crd-abstraction-risks-in-kro/</guid>
+      <description>Confused deputy vulnerability in kro (Kube Resource Orchestrator) allowing attackers to introduce malicious CustomResourceDefinitions (CRDs) leading to remote code execution.</description>
+    </item>
+    <item>
+      <title>Kubernetes CRD Abstraction Risks in kro</title>
+      <link>http://localhost:1313/posts/kubernetes-crd-abstraction-risks-in-kro/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kubernetes-crd-abstraction-risks-in-kro/</guid>
+      <description>A deep dive into confused deputy vulnerabilities in Kubernetes CRD controllers, discovered in the experimental kro project.</description>
+    </item>
+  </channel>
+</rss>
